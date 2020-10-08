@@ -1,0 +1,19 @@
+App
+    Head
+        header
+                h1
+                img
+    Nav
+    Main
+        Sidebar
+        Contenido
+            Articulo*n
+                section
+                    h2
+                    h5
+                    img
+                    p
+            button
+    Footer
+
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_example_website
