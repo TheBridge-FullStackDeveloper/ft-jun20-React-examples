@@ -21,9 +21,9 @@ class Form extends Component {
   }
 
   validar = (event) => {
-    const nam = event.target.name;
-    const val = event.target.value;
-    const err = '';
+    let nam = event.target.name;
+    let val = event.target.value;
+    let err = '';
     if (nam === "edad") {
       if (val !="" && !Number(val)) {
         err = <strong>La edad debe ser un numero</strong>;
